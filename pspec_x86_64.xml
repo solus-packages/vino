@@ -3,10 +3,10 @@
         <Name>vino</Name>
         <Homepage>http://www.gnome.org/</Homepage>
         <Packager>
-            <Name>Solus Packaging Team</Name>
-            <Email>packaging@solus-project.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Packager>
-        <License>GPLv2+</License>
+        <License>GPL-2.0+</License>
         <Summary xml:lang="en">a VNC server for the GNOME desktop</Summary>
         <Description xml:lang="en">a VNC server for the GNOME desktop
 </Description>
@@ -19,20 +19,21 @@
 </Description>
         <PartOf>network.utils</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/vino</Path>
-            <Path fileType="data">/usr/share/dbus-1</Path>
             <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="data">/usr/share/telepathy</Path>
             <Path fileType="data">/usr/share/glib-2.0</Path>
             <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="data">/usr/share/dbus-1</Path>
+            <Path fileType="library">/usr/lib64/vino</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2015-05-21</Date>
+        <Update release="4">
+            <Date>2015-08-25</Date>
             <Version>3.16.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Solus Packaging Team</Name>
-            <Email>packaging@solus-project.com</Email>
+            <Name>Justin Zobel</Name>
+            <Email>justin@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
