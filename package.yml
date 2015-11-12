@@ -1,8 +1,8 @@
 name        : vino
-version     : 3.18.0
-release     : 5
+version     : 3.18.1
+release     : 6
 source     :
-    - http://ftp.gnome.org/pub/gnome/sources/vino/3.18/vino-3.18.0.tar.xz : 52be0b036389713eab224abf27f2ca2a067ba5bd1f6b526592703576005e0919
+    - http://ftp.gnome.org/pub/gnome/sources/vino/3.18/vino-3.18.1.tar.xz : 07ec6e78bbecd4ee3fce873eb26932fdda9c7642bb09d17ac36483b996fafe5a
 license     : GPL-2.0+
 summary     : a VNC server for the GNOME desktop
 builddeps   :

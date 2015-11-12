@@ -18,18 +18,18 @@
 </Description>
         <PartOf>network.utils</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/vino</Path>
-            <Path fileType="data">/usr/share/telepathy</Path>
-            <Path fileType="localedata">/usr/share/locale</Path>
             <Path fileType="data">/usr/share/glib-2.0</Path>
-            <Path fileType="data">/usr/share/applications</Path>
             <Path fileType="data">/usr/share/dbus-1</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="data">/usr/share/telepathy</Path>
+            <Path fileType="library">/usr/lib64/vino</Path>
         </Files>
     </Package>
     <History>
-        <Update release="5">
-            <Date>2015-11-09</Date>
-            <Version>3.18.0</Version>
+        <Update release="6">
+            <Date>2015-11-12</Date>
+            <Version>3.18.1</Version>
             <Comment>Packaging update</Comment>
             <Name>Justin Zobel</Name>
             <Email>justin@solus-project.com</Email>
