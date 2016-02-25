@@ -1,6 +1,6 @@
 name        : vino
 version     : 3.18.1
-release     : 6
+release     : 7
 source     :
     - http://ftp.gnome.org/pub/gnome/sources/vino/3.18/vino-3.18.1.tar.xz : 07ec6e78bbecd4ee3fce873eb26932fdda9c7642bb09d17ac36483b996fafe5a
 license     : GPL-2.0+
