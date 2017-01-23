@@ -1,9 +1,10 @@
 name       : vino
-version    : 3.20.2
-release    : 8
+version    : 3.22.0
+release    : 9
 source     :
-    - http://ftp.gnome.org/pub/gnome/sources/vino/3.20/vino-3.20.2.tar.xz : 660488adc1bf577958e783d13f61dbd99c1d9c4e81d2ca063437ea81d39e4413
+    - http://ftp.gnome.org/pub/gnome/sources/vino/3.22/vino-3.22.0.tar.xz : 2911c779b6a2c46e5bc8e5a0c94c2a4d5bd4a1ee7e35f2818702cb13d9d23bab
 license    : GPL-2.0+
+component  : desktop.utils
 summary    : a VNC server for the GNOME desktop
 builddeps  :
     - pkgconfig(gtk+-3.0)
