@@ -1,6 +1,6 @@
 name       : vino
 version    : 3.22.0
-release    : 9
+release    : 10
 source     :
     - http://ftp.gnome.org/pub/gnome/sources/vino/3.22/vino-3.22.0.tar.xz : 2911c779b6a2c46e5bc8e5a0c94c2a4d5bd4a1ee7e35f2818702cb13d9d23bab
 license    : GPL-2.0+
@@ -9,17 +9,16 @@ summary    : a VNC server for the GNOME desktop
 builddeps  :
     - pkgconfig(gtk+-3.0)
     - pkgconfig(libnotify)
-    - pkgconfig(sm)
-    - pkgconfig(x11)
-    - pkgconfig(telepathy-glib)
     - pkgconfig(libsecret-1)
     - pkgconfig(NetworkManager)
-    - desktop-file-utils
-    - libgcrypt-devel
+    - pkgconfig(sm)
+    - pkgconfig(telepathy-glib)
     - pkgconfig(xtst)
     - avahi-devel
-    - intltool
+    - desktop-file-utils
     - gnutls
+    - intltool
+    - libgcrypt-devel
 description: |
     a VNC server for the GNOME desktop
 setup      : |
