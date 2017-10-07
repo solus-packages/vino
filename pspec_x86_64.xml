@@ -2,8 +2,8 @@
     <Source>
         <Name>vino</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>GPL-2.0+</License>
         <PartOf>desktop.utils</PartOf>
@@ -30,12 +30,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="10">
-            <Date>2017-04-08</Date>
+        <Update release="11">
+            <Date>2017-10-07</Date>
             <Version>3.22.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
