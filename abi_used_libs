@@ -15,6 +15,7 @@ libgcrypt.so.20
 libgdk-3.so.0
 libgio-2.0.so.0
 libglib-2.0.so.0
+libgnutls.so.30
 libgobject-2.0.so.0
 libgtk-3.so.0
 libnotify.so.4
